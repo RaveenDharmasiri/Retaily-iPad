@@ -1,0 +1,19 @@
+.logo-image {
+    width: 38% !important;
+}
+
+.login-container {
+    width: 50%;
+    float: left;
+    margin-left: -17px;
+    margin-right: 17px;
+}
+
+.register-container {
+    width: 50%;
+    float: left;
+}
+
+.forgot-password {
+    text-align: center;
+}
