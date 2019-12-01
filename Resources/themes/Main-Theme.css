@@ -666,7 +666,7 @@ button[disabled],
 
 .ui-content {
     margin: auto !important;
-    width: 80% !important;
+    width: 80%;
 }
 
 .button-container {
