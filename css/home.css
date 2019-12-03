@@ -8,6 +8,19 @@
     font-size: 2em !important;
 }
 
+.btn-home,
+.btn-home:active,
+.btn-home:focus {
+    border: solid 0px #272D42;
+    height: 36px;
+    width: 11px;
+    text-shadow: none;
+}
+
+.ui-btn-icon-left:after{
+    background-color: transparent !important;
+}
+
 .main-categories {
     margin-left: 112px;
     margin-right: auto;
@@ -49,4 +62,6 @@
 
 .ui-icon-homeicon {
     background-image: url("../Resources/image/Logos/Transparent.png");
+    background-size: 60px 60px;
+    background-repeat: no-repeat;
 }
