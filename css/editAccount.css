@@ -1,0 +1,11 @@
+.change-info-container {
+    margin-top: 168px;
+    margin-bottom: 124px;
+}
+
+@media only screen and (max-width: 768px) {
+    .change-info-container {
+        margin-top: 258px;
+        margin-bottom: 291px;
+    }
+}
