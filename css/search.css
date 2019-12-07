@@ -1,0 +1,23 @@
+.search-container {
+    height: 542px; 
+}
+
+@media only screen and (max-width: 768px) {
+    .search-container {
+        height: 757px; 
+    }
+}
+
+.btn-userprofile {
+    border: solid 0px transparent;
+    text-shadow: none;
+    background-color: transparent !important;
+    padding-top: 0px !important;
+    height: 45px !important;
+}
+
+.btn-userprofile img {
+    height: 44px;
+    margin-right: -19px;
+    margin-top: 3px;
+}
