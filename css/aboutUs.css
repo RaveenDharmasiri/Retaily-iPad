@@ -1,0 +1,42 @@
+.logo-image {
+    width: 28% !important;
+    margin-top: -56px !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    z-index: -1 !important;
+    position: block !important;
+}
+
+.main-links-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.main-links-container a {
+    font-size: 20pt;
+    font-weight: 100 !important;
+}
+
+.main-links-container .link-online-store {
+    margin-right: 200px;
+}
+
+/* #map {
+    height: 400px;
+    width: 100%; 
+} */
+
+.mapouter {
+    position: relative;
+    height: 500px;
+    width: 100% !important;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 500px;
+    width: 68% !important;
+    margin-right: auto;
+    margin-left: auto;
+}
