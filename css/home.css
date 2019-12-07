@@ -1,0 +1,117 @@
+.ui-header .ui-title {
+  padding: 0.3em 0 !important;
+}
+
+.header-title {
+  font-weight: 100 !important;
+  letter-spacing: 2px;
+  font-size: 2em !important;
+}
+
+.btn-home {
+  border: solid 0px transparent;
+  text-shadow: none;
+  background-color: transparent !important;
+  padding-top: 0px !important;
+  height: 40px !important;
+}
+
+.btn-home img {
+  width: 70px;
+  height: 70px;
+  margin-left: -25px;
+  margin-top: -10px;
+}
+
+.generic-btn {
+  text-shadow: none;
+}
+
+.ui-btn-icon-left:after {
+  background-color: transparent !important;
+}
+
+.main-categories {
+  margin-left: 112px;
+  margin-right: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .main-categories {
+    margin-left: 63px;
+    margin-right: auto;
+  }
+}
+
+.btn-food {
+  float: left;
+  width: 20% !important;
+  margin-right: 20px !important;
+  font-weight: 100 !important;
+}
+
+.btn-fashion {
+  float: left;
+  width: 20% !important;
+  margin-right: 20px !important;
+  font-weight: 100 !important;
+}
+
+.btn-games {
+  float: left;
+  width: 20% !important;
+  margin-right: 20px !important;
+  font-weight: 100 !important;
+}
+
+.btn-manga {
+  float: left;
+  width: 20% !important;
+  font-weight: 100 !important;
+}
+
+.ui-icon-homeicon {
+  background-image: url("../Resources/image/Logos/Transparent.png");
+  background-size: 60px 60px;
+  background-repeat: no-repeat;
+}
+
+.ui-icon-homeico:after {
+  background-image: url("../Resources/icons/icons8-home-24.png");
+  background-size: 18px 18px;
+}
+
+.ui-icon-scan:after {
+  background-image: url("../Resources/icons/icons8-camera-24.png");
+  background-size: 18px 18px;
+}
+
+.ui-icon-profile:after {
+  background-image: url("../Resources/icons/user (1).png");
+  background-size: 18px 18px;
+}
+
+.ui-shadow {
+  -webkit-box-shadow: none !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .change-password-container {
+    margin-bottom: 155px;
+  }
+}
+
+.btn-nav-bar {
+  border-color: #282d42 !important;
+}
+
+.btn-nav-bar img {
+  width: 35px;
+  height: 35px;
+}
+
+.page-footer {
+  background-color: #282d42 !important;
+  border-color: #282d42 !important;
+  font-weight: 0 !important;
+}
