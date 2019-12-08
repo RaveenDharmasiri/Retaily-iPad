@@ -1,5 +1,11 @@
 .logo-image {
-    width: 78% !important;
+    width: 31% !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .logo-image {
+        width: 61% !important;
+    }
 }
 
 .login-container {
