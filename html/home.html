@@ -15,6 +15,8 @@
   <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
   <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
   <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  <script src="../js/items.js"></script>
+  <script src="../js/home.js"></script>
 </head>
 
 <body>
@@ -41,48 +43,14 @@
       <br />
 
       <div class="content-container">
+
         <div class="best-sellers-items">
           <b>Best Sellers</b>
         </div>
 
         <div class="container">
-          <div class="row">
-            <div class="col-sm-offset-1 col-sm-3">
-              <div class="card">
-                <img src="../Resources/image/Items/PS4.jpg" alt="PS4" style="width:100%" />
-                <h1>PS4</h1>
-                <p class="price">$19.99</p>
-                <p>Some text about the PS4..</p>
-                <p><button>Add to Cart</button></p>
-              </div>
-            </div>
-            <div class="col-sm-3">
-              <div class="card">
-                <img src="../Resources/image/Items/PS4.jpg" alt="PS4" style="width:100%" />
-                <h1>PS4</h1>
-                <p class="price">$19.99</p>
-                <p>Some text about the PS4..</p>
-                <p><button>Add to Cart</button></p>
-              </div>
-            </div>
-            <div class="col-sm-3">
-              <div class="card">
-                <img src="../Resources/image/Items/PS4.jpg" alt="PS4" style="width:100%" />
-                <h1>PS4</h1>
-                <p class="price">$19.99</p>
-                <p>Some text about the PS4..</p>
-                <p><button>Add to Cart</button></p>
-              </div>
-            </div>
-            <div class="col-sm-3">
-              <div class="card">
-                <img src="../Resources/image/Items/PS4.jpg" alt="PS4" style="width:100%" />
-                <h1>PS4</h1>
-                <p class="price">$19.99</p>
-                <p>Some text about the PS4..</p>
-                <p><button>Add to Cart</button></p>
-              </div>
-            </div>
+          <div id="bestSellerItemsRow" class="row">
+
           </div>
           <div class="row"></div>
         </div>
@@ -92,44 +60,7 @@
         </div>
 
         <div class="container">
-          <div class="row">
-            <div class="col-sm-offset-1 col-sm-3">
-              <div class="card">
-                <img src="../Resources/image/Items/PS4.jpg" alt="PS4" style="width:100%" />
-                <h1>PS4</h1>
-                <p class="price">$19.99</p>
-                <p>Some text about the PS4..</p>
-                <p><button>Add to Cart</button></p>
-              </div>
-            </div>
-            <div class="col-sm-3">
-              <div class="card">
-                <img src="../Resources/image/Items/PS4.jpg" alt="PS4" style="width:100%" />
-                <h1>PS4</h1>
-                <p class="price">$19.99</p>
-                <p>Some text about the PS4..</p>
-                <p><button>Add to Cart</button></p>
-              </div>
-            </div>
-            <div class="col-sm-3">
-              <div class="card">
-                <img src="../Resources/image/Items/PS4.jpg" alt="PS4" style="width:100%" />
-                <h1>PS4</h1>
-                <p class="price">$19.99</p>
-                <p>Some text about the PS4..</p>
-                <p><button>Add to Cart</button></p>
-              </div>
-            </div>
-            <div class="col-sm-3">
-              <div class="card">
-                <img src="../Resources/image/Items/PS4.jpg" alt="PS4" style="width:100%" />
-                <h1>PS4</h1>
-                <p class="price">$19.99</p>
-                <p>Some text about the PS4..</p>
-                <p><button>Add to Cart</button></p>
-              </div>
-            </div>
-          </div>
+          <div class="row" id="hotDealsItemsRow"></div>
           <div class="row"></div>
         </div>
 
@@ -138,84 +69,45 @@
         </div>
 
         <div class="container">
-          <div class="row">
-            <div class="col-sm-offset-1 col-sm-3">
-              <div class="card">
-                <img src="../Resources/image/Items/PS4.jpg" alt="PS4" style="width:100%" />
-                <h1>PS4</h1>
-                <p class="price">$19.99</p>
-                <p>Some text about the PS4..</p>
-                <p><button>Add to Cart</button></p>
-              </div>
-            </div>
-            <div class="col-sm-3">
-              <div class="card">
-                <img src="../Resources/image/Items/PS4.jpg" alt="PS4" style="width:100%" />
-                <h1>PS4</h1>
-                <p class="price">$19.99</p>
-                <p>Some text about the PS4..</p>
-                <p><button>Add to Cart</button></p>
-              </div>
-            </div>
-            <div class="col-sm-3">
-              <div class="card">
-                <img src="../Resources/image/Items/PS4.jpg" alt="PS4" style="width:100%" />
-                <h1>PS4</h1>
-                <p class="price">$19.99</p>
-                <p>Some text about the PS4..</p>
-                <p><button>Add to Cart</button></p>
-              </div>
-            </div>
-            <div class="col-sm-3">
-              <div class="card">
-                <img src="../Resources/image/Items/PS4.jpg" alt="PS4" style="width:100%" />
-                <h1>PS4</h1>
-                <p class="price">$19.99</p>
-                <p>Some text about the PS4..</p>
-                <p><button>Add to Cart</button></p>
-              </div>
-            </div>
+          <div class="row" id="newItemsRow">
+            <div class="row"></div>
           </div>
-          <div class="row"></div>
         </div>
       </div>
 
-
-    </div>
-
-    <div class="page-footer footer-class" data-role="footer">
-      <div data-role="navbar" data-iconpos="bottom">
-        <ul>
-          <li>
-            <!-- <a href="#" data-role="button" data-icon="homeicon"></a> -->
-            <button class="btn-nav-bar" data-role="button" data-shadow="false" data-theme="none">
-              <img src="../Resources/image/Logos/icons8-home-24.png" border="0" />
-            </button>
-          </li>
-          <li>
-            <button class="btn-nav-bar" data-role="button" data-shadow="false" data-theme="none">
-              <img src="../Resources/image/Logos/nav-bar-home.png" border="0" />
-            </button>
-          </li>
-          <li>
-            <button class="btn-nav-bar" data-role="button" data-shadow="false" data-theme="none">
-              <img src="../Resources/image/Logos/nav-bar-home.png" border="0" />
-            </button>
-          </li>
-          <li>
-            <button class="btn-nav-bar" data-role="button" data-shadow="false" data-theme="none">
-              <img src="../Resources/image/Logos/nav-bar-home.png" border="0" />
-            </button>
-          </li>
-          <li>
-            <button class="btn-nav-bar" data-role="button" data-shadow="false" data-theme="none">
-              <img src="../Resources/image/Logos/nav-bar-home.png" border="0" />
-            </button>
-          </li>
-        </ul>
+      <div class="page-footer footer-class" data-role="footer">
+        <div data-role="navbar" data-iconpos="bottom">
+          <ul>
+            <li>
+              <!-- <a href="#" data-role="button" data-icon="homeicon"></a> -->
+              <button class="btn-nav-bar" data-role="button" data-shadow="false" data-theme="none">
+                <img src="../Resources/image/Logos/icons8-home-24.png" border="0" />
+              </button>
+            </li>
+            <li>
+              <button class="btn-nav-bar" data-role="button" data-shadow="false" data-theme="none">
+                <img src="../Resources/image/Logos/nav-bar-home.png" border="0" />
+              </button>
+            </li>
+            <li>
+              <button class="btn-nav-bar" data-role="button" data-shadow="false" data-theme="none">
+                <img src="../Resources/image/Logos/nav-bar-home.png" border="0" />
+              </button>
+            </li>
+            <li>
+              <button class="btn-nav-bar" data-role="button" data-shadow="false" data-theme="none">
+                <img src="../Resources/image/Logos/nav-bar-home.png" border="0" />
+              </button>
+            </li>
+            <li>
+              <button class="btn-nav-bar" data-role="button" data-shadow="false" data-theme="none">
+                <img src="../Resources/image/Logos/nav-bar-home.png" border="0" />
+              </button>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
-  </div>
 </body>
 
 </html>
