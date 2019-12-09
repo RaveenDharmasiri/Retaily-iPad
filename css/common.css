@@ -7,11 +7,17 @@
 }
 
 .footer-class {
-  position: absolute;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
-  overflow: hidden;
+  position: absolute !important;
+  bottom: 0px !important;
+  left: 0px !important;
+  right: 0px !important;
+  overflow: hidden !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .footer-class {
+    bottom: 41px !important;
+  }
 }
 
 .content-class {
