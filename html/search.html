@@ -1,150 +1,84 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>HomePage</title>
-    <link rel="stylesheet" href="../css/common.css" />
-    <link rel="stylesheet" href="../css/search.css" />
-    <link rel="stylesheet" href="../css/home.css" />
-    <link rel="stylesheet" href="../Resources/themes/Home/HomePage.css" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
 
-    <link
-      rel="stylesheet"
-      href="../Resources/themes/Home/jquery.mobile.icons.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css"
-    />
-    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
-  </head>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>HomePage</title>
+  <link rel="stylesheet" href="../css/common.css" />
+  <link rel="stylesheet" href="../css/search.css" />
+  <link rel="stylesheet" href="../css/home.css" />
+  <link rel="stylesheet" href="../Resources/themes/Home/HomePage.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
 
-  <body>
-    <div data-role="page" data-theme="d">
-      <div data-role="header" class="header-class">
-        <button
-          class="btn-home"
-          data-role="button"
-          data-shadow="false"
-          data-theme="none"
-        >
-          <img src="../Resources/image/Logos/Transparent.png" border="0" />
-        </button>
-        <h1 class="header-title">Search</h1>
-        <button
-          class="btn-userprofile"
-          data-role="button"
-          data-shadow="false"
-          data-theme="none"
-        >
-          <img
-            src="../Resources/image/Logos/header-userprofile.png"
-            border="0"
-          />
-        </button>
+  <link rel="stylesheet" href="../Resources/themes/Home/jquery.mobile.icons.min.css" />
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+  <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+  <div data-role="page" data-theme="d">
+    <div data-role="header" class="header-class">
+      <button class="btn-home" data-role="button" data-shadow="false" data-theme="none" onclick="location.href='home.html'">
+        <img src="../Resources/image/Logos/Transparent.png" border="0" />
+      </button>
+      <h1 class="header-title">Search</h1>
+      <button class="btn-userprofile" data-role="button" data-shadow="false" data-theme="none">
+        <img src="../Resources/image/Logos/header-userprofile.png" border="0" />
+      </button>
+    </div>
+
+    <div role="main" class="ui-content">
+      <div class="main-categories">
+        <button class="btn-food" onclick="location.href='food.html'">Food</button>
+        <button class="btn-fashion" onclick="location.href='fashion.html'">Fashion</button>
+        <button class="btn-games" onclick="location.href='games.html'">Games</button>
+        <button class="btn-manga" onclick="location.href='manga.html'">Manga</button>
       </div>
+      <br />
+      <br />
+      <br />
 
-      <div role="main" class="ui-content">
-        <div class="main-categories">
-          <button class="btn-food">Food</button>
-          <button class="btn-fashion">Fashion</button>
-          <button class="btn-games">Games</button>
-          <button class="btn-manga">Manga</button>
-        </div>
-        <br />
-        <br />
-        <br />
-
-        <div class="search-container">
-          <input
-            type="text"
-            id="myInput"
-            placeholder="Search for an item"
-            title="Type item name"
-          />
-        </div>
-      </div>
-
-      <div class="page-footer footer-class" data-role="footer">
-        <div data-role="navbar" data-iconpos="bottom">
-          <ul>
-            <li>
-              <!-- <a href="#" data-role="button" data-icon="homeicon"></a> -->
-              <button
-                class="btn-nav-bar"
-                data-role="button"
-                data-shadow="false"
-                data-theme="none"
-              >
-                <img
-                  src="../Resources/image/Logos/icons8-home-24.png"
-                  border="0"
-                />
-              </button>
-            </li>
-            <li>
-              <button
-                class="btn-nav-bar"
-                data-role="button"
-                data-shadow="false"
-                data-theme="none"
-              >
-                <img
-                  src="../Resources/image/Logos/nav-bar-home.png"
-                  border="0"
-                />
-              </button>
-            </li>
-            <li>
-              <button
-                class="btn-nav-bar"
-                data-role="button"
-                data-shadow="false"
-                data-theme="none"
-              >
-                <img
-                  src="../Resources/image/Logos/nav-bar-home.png"
-                  border="0"
-                />
-              </button>
-            </li>
-            <li>
-              <button
-                class="btn-nav-bar"
-                data-role="button"
-                data-shadow="false"
-                data-theme="none"
-              >
-                <img
-                  src="../Resources/image/Logos/nav-bar-home.png"
-                  border="0"
-                />
-              </button>
-            </li>
-            <li>
-              <button
-                class="btn-nav-bar"
-                data-role="button"
-                data-shadow="false"
-                data-theme="none"
-              >
-                <img
-                  src="../Resources/image/Logos/nav-bar-home.png"
-                  border="0"
-                />
-              </button>
-            </li>
-          </ul>
-        </div>
+      <div class="search-container">
+        <input type="text" id="myInput" placeholder="Search for an item" title="Type item name" />
       </div>
     </div>
-  </body>
+
+    <div class="page-footer footer-class" data-role="footer">
+      <div data-role="navbar" data-iconpos="bottom">
+        <ul>
+          <li>
+            <!-- <a href="#" data-role="button" data-icon="homeicon"></a> -->
+            <button class="btn-nav-bar" data-role="button" data-shadow="false" data-theme="none">
+              <img src="../Resources/image/Logos/icons8-home-24.png" border="0" />
+            </button>
+          </li>
+          <li>
+            <button class="btn-nav-bar" data-role="button" data-shadow="false" data-theme="none">
+              <img src="../Resources/image/Logos/nav-bar-home.png" border="0" />
+            </button>
+          </li>
+          <li>
+            <button class="btn-nav-bar" data-role="button" data-shadow="false" data-theme="none">
+              <img src="../Resources/image/Logos/nav-bar-home.png" border="0" />
+            </button>
+          </li>
+          <li>
+            <button class="btn-nav-bar" data-role="button" data-shadow="false" data-theme="none">
+              <img src="../Resources/image/Logos/nav-bar-home.png" border="0" />
+            </button>
+          </li>
+          <li>
+            <button class="btn-nav-bar" data-role="button" data-shadow="false" data-theme="none">
+              <img src="../Resources/image/Logos/nav-bar-home.png" border="0" />
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+
 </html>
