@@ -32,3 +32,8 @@
 .card {
   border: 0px !important;
 }
+
+.card img {
+  width: 100%;
+  height: 140px;
+}
